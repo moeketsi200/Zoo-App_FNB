@@ -1,8 +1,18 @@
-body{
+/* body{
 padding    : 0;
 margin     : 0;
 font-family: Helvetica;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('map-blur.png');
+    background-repeat: repeat-y;
+    background-size: cover;
 }
+
 #header{
 position: fixed;
 top     : 0;
@@ -12,6 +22,7 @@ width   :100%;
 height  :80px;
 background-image  : url('wood-bg.png');
 background-repeat: repeat-x;
+background-size: cover;
 }
 #header img{
 display: block;
@@ -62,15 +73,21 @@ text-align  : center;
 text-decoration : none;
 padding-top     : none;
 }
-#main{
+/* #main{
 margin-top: 119px;
 background: url('map-blur.png');
 background-repeat: repeat-y;
-}
+background-size:cover;
+} */
 #content{
 padding-top: 1px;
 padding-bottom: 50px;
 }
+
+
+
+
+
 
 a.info-box{
 text-decoration : none;
@@ -111,6 +128,7 @@ display : block;
 margin  : auto;
 margin-top : 12px;
 padding    : 10px;
+background-size: contain;
 }
 #info-box-full img{
 width : 100%;
